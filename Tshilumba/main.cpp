@@ -1,8 +1,12 @@
-//NAME	: Jevic Tshilumba
-//CLASS	: CSC 300
-//ASSIGNMENT	: 7
+/*
+Name: Jevic Tshilumba
+Class: CSC 300
+Professor: Ken Gamradt
+Comment: This program creates a user-defined abstract Data type named Graph
+The Graph ADT will define and implement the following data types and operations.
+*/ 
 
-#include <iostream>            
+#include <iostream>             
 #include <fstream>
 #include <string>
 #include <climits>
@@ -11,9 +15,10 @@ using namespace std;
 
 int main () 
 {
-    
+    // local variables
     string file = "graph.dat";
-    Graph myGraph();
+    Graph myGraph;
+    myGraph.dijkstra();
 
     return 0;
 }
